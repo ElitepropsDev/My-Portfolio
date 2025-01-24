@@ -71,6 +71,8 @@
         z-index: 2;
         transition: right 0.5s;
         right: -350px;
+        /* overflow-y: auto; 
+        overflow-x: hidden; */
         
     }
     .nav-menu li{
