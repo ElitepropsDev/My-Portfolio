@@ -6,9 +6,9 @@
   /* scroll-behavior: smooth; */
   
 }
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+}
 body{
   height: 100vh;
   background: #161513;
