@@ -39,9 +39,6 @@
 .nav-mob-close{
     display: none;
 }
-.nav-mob-open{
-    display: none;
-}
 @media (max-width:768px) {
     .navbar{
         margin: 20px 50px;
@@ -52,8 +49,8 @@
     .nav-mob-open{
         display: block;
         position: fixed;
-        /* right: 30px; */
-        left: 680px;
+        right: 30px;
+        /* left: 550px; */
     }
     .nav-mob-close{
         display: block;
@@ -68,12 +65,13 @@
         align-items: start;
         top: 0;
         gap: 30px;
-        background: #1F0016;
-        width: 620px;
+        background-color: #1f0016;
+        width: 350px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
-        right: -350px;
+        right: 10px;
+        
     }
     .nav-menu li{
         font-size: 30px;
