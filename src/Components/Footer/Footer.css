@@ -60,7 +60,7 @@
 }
 @media (max-width:768px) {
     .footer{
-        margin: 50px 70px;
+        margin: 20px 30px;
     }
     .footer-top{
         flex-direction: column;
