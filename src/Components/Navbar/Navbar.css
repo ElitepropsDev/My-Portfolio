@@ -13,6 +13,7 @@
 }
 .navbar .logo-png{
     width: 100px;
+    margin-left: -100px;
 }
 .nav-connect{
     padding: 20px 40px;
@@ -21,6 +22,7 @@
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;
+    margin-right: -100px;
 }
 .nav-connect:hover{
     transform: scale(1.05);
