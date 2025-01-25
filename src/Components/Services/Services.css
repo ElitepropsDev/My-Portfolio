@@ -83,8 +83,8 @@
         margin-right: -10px;
     }
     .services-format{
-        gap: 10px;
-        padding: 20px;
+        gap: 0;
+        padding: 5px;
     }
     .services-format h2{
         font-size: 28px;
