@@ -4,6 +4,9 @@
     justify-content: space-between;
     margin: 20px 170px;
 }
+.navbar .logo-png{
+    /* width: 50px; */
+}
 .nav-menu{
     display: flex;
     align-items: center;
@@ -81,5 +84,9 @@
         padding-left: 50px;
         flex-direction: row;
         gap: 20px;
+    }
+    .navbar .logo-png{
+        width: 60px;
+        margin-top: 20px;
     }
 }
