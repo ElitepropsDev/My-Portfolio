@@ -75,12 +75,14 @@
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: 50px;
+        font-size: 14px;
     }
     .footer-email-input{
         gap: 0px;
         padding: 13px 20px;
         padding-right: 50px;
         margin-top: -30px;
+        width: 250px;
     }
     .footer-subscibe{
         font-size: 20px;
@@ -88,13 +90,24 @@
         border-radius: 50px;
         margin-left: -20px;
         margin-top: -30px;
+        width: 150px;
     }
-    .footer-bottom{
-        font-size: 14px;
-    }
+    
     .footer-top-left .footer-logo{
         width: 90px;
         margin-bottom: 10px;
         margin-top: -20px;
+    }
+    .footer-top-left p{
+        font-size: 18px;
+        
+    }
+    .footer-bottom-right{
+        gap: 80px;
+        margin-bottom: 50px;
+        font-size: 12px;
+    }
+    .footer-bottom-left{
+        margin-left: 100px;
     }
 }
