@@ -82,15 +82,15 @@
         padding: 13px 20px;
         padding-right: 50px;
         margin-top: -30px;
-        width: 250px;
+        width: 200px;
     }
     .footer-subscibe{
         font-size: 20px;
-        padding: 15px 40px;
+        padding: 15px 20px;
         border-radius: 50px;
         margin-left: -20px;
         margin-top: -30px;
-        width: 150px;
+        width: 120px;
     }
     
     .footer-top-left .footer-logo{
@@ -105,9 +105,9 @@
     .footer-bottom-right{
         gap: 80px;
         margin-bottom: 50px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .footer-bottom-left{
-        margin-left: 100px;
+        margin-left: 80px;
     }
 }
