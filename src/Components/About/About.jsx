@@ -20,10 +20,10 @@ const About = () => {
                   <p> I thrive on solving complex problems with clean, efficient code and staying updated on emerging technologies. My goal is to bridge the gap between functionality and design to create impactful digital solutions.</p>
                 </div>
                 <div className="about-skills"></div>
-                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"40%"}}/></div>
-                <div className="about-skill"><p>REACT JS</p><hr style={{width:"60%"}}/></div>
-                <div className="about-skill"><p>JAVASCRIPT</p><hr style={{width:"50%"}}/></div>
-                <div className="about-skill"><p>NODE JS</p><hr style={{width:"40%"}}/></div>
+                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"50%"}}/></div>
+                <div className="about-skill"><p>REACT JS</p><hr style={{width:"70%"}}/></div>
+                <div className="about-skill"><p>JAVASCRIPT</p><hr style={{width:"60%"}}/></div>
+                <div className="about-skill"><p>NODE JS</p><hr style={{width:"55%"}}/></div>
             </div>
         </div>
         <div className="about-achievments">

@@ -96,7 +96,7 @@
 @media (max-width:768px) {
     .about{
         gap: 60px;
-        margin: 10px 10px;
+        margin: 10px 20px;
         align-items: start;
     }
     .about-title h1{
@@ -127,7 +127,7 @@
 
     }
     .about-skill hr{
-        height: 6px;
+        height: 10px;
         margin-left: -40px;
         /* width: 30%; */
     }
@@ -136,7 +136,7 @@
     }
     .about-achievment{
         gap: 10px;
-        margin-right: 40px;
+       
     }
     .about-achievment h1{
         font-size: 34px;
