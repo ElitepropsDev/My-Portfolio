@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/about_profile.svg'
+import profile_img from '../../assets/about_profile.png'
 
 const About = () => {
   return (
@@ -16,14 +16,14 @@ const About = () => {
             </div>
             <div id='about' className="about-right">
                 <div className="about-para">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consectetur veniam veritatis maxime facere laborum dolorum voluptatibus cupiditate totam architecto.</p>  
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque pariatur dolores ipsa voluptatum sed doloremque ut vero expedita nobis libero!</p>
+                  <p>With expertise in both front-end and back-end development, I focus on delivering efficient and user-centric solutions. Every project I take on is an opportunity to bring ideas to life and make technology work smarter.</p>  
+                  <p> I thrive on solving complex problems with clean, efficient code and staying updated on emerging technologies. My goal is to bridge the gap between functionality and design to create impactful digital solutions.</p>
                 </div>
                 <div className="about-skills"></div>
-                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"50%"}}/></div>
-                <div className="about-skill"><p>REACT JS</p><hr style={{width:"70%"}}/></div>
-                <div className="about-skill"><p>JAVASCRIPT</p><hr style={{width:"60%"}}/></div>
-                <div className="about-skill"><p>NODE JS</p><hr style={{width:"50%"}}/></div>
+                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"40%"}}/></div>
+                <div className="about-skill"><p>REACT JS</p><hr style={{width:"60%"}}/></div>
+                <div className="about-skill"><p>JAVASCRIPT</p><hr style={{width:"50%"}}/></div>
+                <div className="about-skill"><p>NODE JS</p><hr style={{width:"40%"}}/></div>
             </div>
         </div>
         <div className="about-achievments">
