@@ -86,7 +86,8 @@
         gap: 20px;
     }
     .navbar .logo-png{
-        width: 50px;
-        margin-top: 20px;
+        width: 70px;
+        margin-top: 10px;
+        margin-left: -20px;
     }
 }

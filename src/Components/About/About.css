@@ -144,6 +144,8 @@
     }
     .about-achievment p{
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
+        margin-left: -10px;
+        margin-right: -10px;
     }
 }
