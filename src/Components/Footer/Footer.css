@@ -10,7 +10,12 @@
 }
 .footer-top-left p{
     font-size: 20px;
-    max-width: 400px;
+    max-width: 500px;
+}
+.footer-top-left .footer-logo{
+    width: 120px;
+    margin-bottom: 30px;
+    margin-top: 100px;
 }
 .footer-top-right{
     display: flex;
@@ -70,5 +75,26 @@
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: 50px;
+    }
+    .footer-email-input{
+        gap: 0px;
+        padding: 13px 20px;
+        padding-right: 50px;
+        margin-top: -30px;
+    }
+    .footer-subscibe{
+        font-size: 20px;
+        padding: 15px 40px;
+        border-radius: 50px;
+        margin-left: -20px;
+        margin-top: -30px;
+    }
+    .footer-bottom{
+        font-size: 14px;
+    }
+    .footer-top-left .footer-logo{
+        width: 90px;
+        margin-bottom: 10px;
+        margin-top: -20px;
     }
 }

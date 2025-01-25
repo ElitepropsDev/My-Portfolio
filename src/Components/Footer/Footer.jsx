@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
+import footer_logo from '../../assets/logo3.png'
 import user_icon from '../../assets/user_icon.svg'
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer'>
         <div className="footer-top">
             <div className="footer-top-left">
-                <img src={footer_logo} alt="" />
+                <img src={footer_logo} alt="" className='footer-logo'/>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, laboriosam.</p>
             </div>
             <div className="footer-top-right">
@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className="footer-bottom">
-            <p className='footer-bottom-left'> c 2025, Tope Bello. All rigths reserved.</p>
+            <p className='footer-bottom-left'> © 2025, Tope Bello. All rigths reserved.</p>
             <div className="footer-bottom-right">
                 <p>Term of Services</p>
                 <p>Privacy Policy</p>
