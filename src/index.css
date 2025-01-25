@@ -3,15 +3,28 @@
   padding: 0;
   box-sizing: border-box;
   /* overflow-x: hidden; */
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
+  /* overflow-y: auto; */
   
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  
+  height: 100%;
 }
 body{
   height: 100vh;
   background: #161513;
   color: #fff;
   font-family: 'outfit';
+  overflow-x: hidden;
+  position: relative;
+  scroll-behavior: smooth;
+  /* overflow-y: auto; */
+  /* height: 100%; */
 }
+/* section{
+  position: relative;
+  scroll-margin-top: 80px;
+} */

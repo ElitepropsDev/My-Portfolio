@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState, useEffect} from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.svg'
 import underline from '../../assets/nav_underline.svg'
@@ -17,6 +17,32 @@ const Navbar = () => {
   const closeMenu = () =>{
     menuRef.current.style.right="-350px";
   }
+
+  // smooth scrolling fallback
+  useEffect(() => {
+    const anchors = document.querySelectorAll('.anchor-link');
+  
+    anchors.forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+          });
+        }
+      });
+    });
+  
+    // Cleanup listeners on component unmount
+    return () => {
+      anchors.forEach(anchor => {
+        anchor.removeEventListener('click', () => {});
+      });
+    };
+  }, []);
+  
 
   return (
     <div className='navbar'>
