@@ -62,7 +62,7 @@
         display: block;
         position: relative;
         top: 30px;
-        left: 180px;
+        left: 130px;
         width: 30px;
     }
     .nav-menu{
@@ -72,7 +72,7 @@
         top: 0;
         gap: 30px;
         background-color: #1f0016;
-        width: 220px;
+        width: 180px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
@@ -80,7 +80,7 @@
         
     }
     .nav-menu li{
-        font-size: 30px;
+        font-size: 25px;
         padding-left: 50px;
         flex-direction: row;
         gap: 20px;
