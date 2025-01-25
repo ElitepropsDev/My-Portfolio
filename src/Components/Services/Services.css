@@ -87,19 +87,19 @@
         padding: 5px;
     }
     .services-format h2{
-        font-size: 28px;
+        font-size: 20px;
     }
     .services-format p{
         font-size: 18px;
-        line-height: 32px;
-        max-width: 300px;
+        line-height: 30px;
+        max-width: 250px;
     }
     .servicrs-readmore img{
         width: 20px;
     }
     .services-container{
         grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        gap: 10px;
         margin-top: -40px;
     }
 }
