@@ -12,7 +12,7 @@ const Services_Data = [
     },
     {
         s_no:"",
-        s_name:" Responsive and Mobile-Friendly Design",
+        s_name:"Responsive and Mobile-Friendly Design",
         s_desc:"• Develop web applications that are fully responsive and optimized for all screen sizes. \n• Ensure cross-browser compatibility and a smooth user experience."
     },
     {

@@ -92,7 +92,8 @@
     .services-format p{
         font-size: 14px;
         line-height: 20px;
-        max-width: 250px;
+        max-width: 300px;
+        margin-top: 10px;
     }
     .servicrs-readmore img{
         width: 20px;
