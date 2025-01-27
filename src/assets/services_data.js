@@ -1,8 +1,9 @@
 const Services_Data = [
     {
         s_no:"",
-        s_name:"Web Application Dev",
-        s_desc:"Building dynamic, scalable, and user-friendly web applications tailored to client needs."
+        s_name:"Web Application Development",
+        s_desc:"Building dynamic, scalable, and user-friendly web applications tailored to client needs. Deploy web applications on cloud platforms like AWS, Azure, Google Cloud, or Heroku." 
+        
     },
     {
         s_no:"",
