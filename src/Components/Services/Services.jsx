@@ -18,7 +18,7 @@ const Services = () => {
                         <h2>{service.s_name}</h2>
                         <p>
                             {service.s_desc.split('\n').map((line, idx) => (
-                                <span key={idx}>
+                                <span key={idx} className="bullet-line">
                                     {line}
                                     <br />
                                 </span>

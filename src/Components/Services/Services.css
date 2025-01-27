@@ -67,6 +67,11 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
+.bullet-line {
+    display: block; 
+    margin-bottom: 0.5rem; 
+  }
+  
 @media (max-width:768px) {
     .services{
         align-items: start;
