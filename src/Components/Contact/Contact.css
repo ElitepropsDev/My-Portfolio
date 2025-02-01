@@ -131,6 +131,9 @@
     .contact-detail{
         gap: 20px;
     }
+    .contact-detail p{
+        padding-top: 15px;
+    }
     .contact-detail img{
         width: 20px;
     }
