@@ -90,11 +90,11 @@
         gap: 10px;
     }
     .mywork-container img{
-        width: 100%;
+        width: 95%;
         height: 80%;
     }
     .work-item h2 {
-        font-size: 1rem;
+        font-size: 12px;
     }
     .mywork-showmore{
         padding: 10px 30px;
