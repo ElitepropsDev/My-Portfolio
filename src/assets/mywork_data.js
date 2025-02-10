@@ -14,7 +14,7 @@ const mywork_data = [
     },
     {
         w_no:2,
-        w_name:"REACT.JS/TMDB/FIREBASE",
+        w_name:"REACT.JS/TMDB",
         w_img:project2_img,
         w_link: "https://netflix-opal-ten.vercel.app/"
     },
@@ -38,7 +38,7 @@ const mywork_data = [
     },
     {
         w_no:6,
-        w_name:"WORDPRESS/WOOCOMERCE",
+        w_name:"WOOCOMERCE/WCMV",
         w_img:project6_img,
         w_link: "https://www.kaymax.ng/"
     },
