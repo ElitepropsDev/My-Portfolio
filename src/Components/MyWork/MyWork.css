@@ -94,7 +94,8 @@
         height: 80%;
     }
     .work-item h2 {
-        font-size: 10px;
+        font-size: 11px;
+        margin-top: 5px;
     }
     .mywork-showmore{
         padding: 10px 30px;
