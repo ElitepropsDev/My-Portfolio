@@ -2,6 +2,7 @@ import React from "react";
 import "./MyWork.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import mywork_data from "../../assets/mywork_data";
+import arrow_icon from "../../assets/arrow_icon.svg";
 
 const MyWork = () => {
   return (
@@ -16,7 +17,11 @@ const MyWork = () => {
           <div key={index} className="work-item">
             <img src={work.w_img} alt={work.w_name} />
             <h2>{work.w_name}</h2>
+            
             <p className="work-desc">{work.w_desc}</p>
+            <p className="work-stack">
+      <strong>Stacks:</strong> {work.w_stack}
+    </p>
             <p className="work-stack">{work.w_stack}</p>
             <div className="work-links">
               <a href={work.w_link} target="_blank" rel="noopener noreferrer">
@@ -34,11 +39,6 @@ const MyWork = () => {
             </div>
           </div>
         ))}
-      </div>
-
-      {/* ✅ HINT goes here, below the container */}
-      <div className="scroll-hint">
-        <span>← Swipe to explore →</span>
       </div>
     </div>
   );
