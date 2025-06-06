@@ -84,7 +84,7 @@
 .work-stack {
     font-size: 0.85rem;
     margin-top: 0.4rem;
-    color: #888;
+    color: black;
 }
 .work-links {
     margin-top: 0.8rem;
@@ -98,6 +98,27 @@
     cursor: pointer;
     text-decoration: none;
 }
+.work-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .work-links a {
+    background-color: #b415ff;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .work-links a:hover {
+    background-color: #df8908;
+  }
+  
 @media (max-width:768px) {
     .mywork{
         gap: 10px;
@@ -143,3 +164,23 @@
         cursor: pointer;
     }
 }
+.scroll-hint {
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    margin-top: 20px;
+    animation: fadeInOut 2s infinite;
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% { opacity: 0.2; }
+    50% { opacity: 1; }
+  }
+  
+  @media (max-width: 768px) {
+    .scroll-hint {
+      display: block;
+    }
+  }
+  
