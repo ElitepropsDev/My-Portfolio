@@ -17,12 +17,11 @@ const MyWork = () => {
           <div key={index} className="work-item">
             <img src={work.w_img} alt={work.w_name} />
             <h2>{work.w_name}</h2>
-            
+
             <p className="work-desc">{work.w_desc}</p>
             <p className="work-stack">
-      <strong>Stacks:</strong> {work.w_stack}
-    </p>
-            <p className="work-stack">{work.w_stack}</p>
+              <strong>Stacks:</strong> {work.w_stack}
+            </p>
             <div className="work-links">
               <a href={work.w_link} target="_blank" rel="noopener noreferrer">
                 Live Demo
@@ -40,6 +39,9 @@ const MyWork = () => {
           </div>
         ))}
       </div>
+
+      {/* Scroll Hint for Mobile */}
+      <div className="scroll-hint">Swipe sideways to see more projects 👈👉</div>
     </div>
   );
 };
