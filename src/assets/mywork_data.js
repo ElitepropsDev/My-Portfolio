@@ -50,12 +50,12 @@ const mywork_data = [
         w_img:project7_img,
         w_link: "https://github.com/ElitepropsDev/E-shop-Mern-Stack/"
     },
-    {
-        w_no:8,
-        w_name:"WOOCOMERCE/WCMV",
-        w_img:project8_img,
-        w_link: "https://www.kaymax.ng/"
-    },
+    // {
+    //     w_no:8,
+    //     w_name:"WOOCOMERCE/WCMV",
+    //     w_img:project8_img,
+    //     w_link: "https://www.kaymax.ng/"
+    // },
     
 ]
  
