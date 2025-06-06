@@ -48,7 +48,7 @@ const mywork_data = [
         w_no:7,
         w_name:"E-COMMERCE/MERN STACK",
         w_img:project7_img,
-        w_link: "https://www.kaymax.ng/"
+        w_link: "https://github.com/ElitepropsDev/E-shop-Mern-Stack/"
     },
     {
         w_no:8,
