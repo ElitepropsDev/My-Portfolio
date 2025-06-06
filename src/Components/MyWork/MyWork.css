@@ -58,17 +58,46 @@
     text-align: center;
     text-decoration: none;
     color: inherit;
-  }
-  
-  .work-item h2 {
+    padding: 1rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.07);
+    transition: transform 0.3s;
+}
+.work-item:hover {
+    transform: scale(1.05);
+}
+.work-item h2 {
     margin-top: 10px;
     font-size: 1.5rem;
     background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-  
+}
+.work-desc {
+    font-size: 0.9rem;
+    margin-top: 0.6rem;
+    color: #555;
+    min-height: 3rem;
+}
+.work-stack {
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+    color: #888;
+}
+.work-links {
+    margin-top: 0.8rem;
+    
+}
+.work-links a {
+    margin: 0 10px;
+    font-size: 0.9rem;
+    color: #B415FF;
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration: none;
+}
 @media (max-width:768px) {
     .mywork{
         gap: 10px;
@@ -94,8 +123,18 @@
         height: 80%;
     }
     .work-item h2 {
-        font-size: 11px;
+        font-size: 1.1rem;
         margin-top: 5px;
+    }
+    .work-desc {
+        font-size: 0.8rem;
+        min-height: auto;
+    }
+    .work-stack {
+        font-size: 0.75rem;
+    }
+    .work-links a {
+        font-size: 0.8rem;
     }
     .mywork-showmore{
         padding: 10px 30px;
