@@ -41,7 +41,7 @@ const MyWork = () => {
       </div>
 
       {/* Scroll Hint for Mobile */}
-      <div className="scroll-hint">Swipe sideways to see more projects 👈👉</div>
+      {/* <div className="scroll-hint">Swipe sideways to see more projects 👈👉</div> */}
     </div>
   );
 };
