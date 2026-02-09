@@ -30,26 +30,26 @@ const mywork_data = [
     w_stack: "React.js, Firebase, TMDb API",
     w_github: "https://github.com/ElitepropsDev/Netflix",
   },
-  {
-    w_no: 3,
-    w_name: "Netflix Clone (React.js, Firebase)",
-    w_img: project3_img,
-    w_link: "https://netflix-opal-ten.vercel.app/",
-    w_desc:
-      "Implemented secure user authentication using Firebase Auth and optimized UX with lazy loading and infinite scrolling.",
-    w_stack: "React.js, Firebase",
-    w_github: "https://github.com/ElitepropsDev/Netflix",
-  },
-  {
-    w_no: 4,
-    w_name: "Trao Kitchen – Restaurant E-Commerce Platform",
-    w_img: project4_img,
-    w_link: "https://trao-kithen-frontend.onrender.com/",
-    w_desc:
-      "Built responsive UI and real-time order tracking system for a seamless customer experience.",
-    w_stack: "MongoDB, Express, React, Node.js",
-    w_github: "https://github.com/ElitepropsDev/E-shop-Mern-Stack",
-  },
+  // {
+  //   w_no: 3,
+  //   w_name: "Netflix Clone (React.js, Firebase)",
+  //   w_img: project3_img,
+  //   w_link: "https://netflix-opal-ten.vercel.app/",
+  //   w_desc:
+  //     "Implemented secure user authentication using Firebase Auth and optimized UX with lazy loading and infinite scrolling.",
+  //   w_stack: "React.js, Firebase",
+  //   w_github: "https://github.com/ElitepropsDev/Netflix",
+  // },
+  // {
+  //   w_no: 4,
+  //   w_name: "Trao Kitchen – Restaurant E-Commerce Platform",
+  //   w_img: project4_img,
+  //   w_link: "https://trao-kithen-frontend.onrender.com/",
+  //   w_desc:
+  //     "Built responsive UI and real-time order tracking system for a seamless customer experience.",
+  //   w_stack: "MongoDB, Express, React, Node.js",
+  //   w_github: "https://github.com/ElitepropsDev/E-shop-Mern-Stack",
+  // },
   {
     w_no: 5,
     w_name: "YouTube Clone (React.js, Google API)",
