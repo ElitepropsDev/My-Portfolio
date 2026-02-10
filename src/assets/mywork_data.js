@@ -40,16 +40,16 @@ const mywork_data = [
   //   w_stack: "React.js, Firebase",
   //   w_github: "https://github.com/ElitepropsDev/Netflix",
   // },
-  // {
-  //   w_no: 4,
-  //   w_name: "Trao Kitchen – Restaurant E-Commerce Platform",
-  //   w_img: project4_img,
-  //   w_link: "https://trao-kithen-frontend.onrender.com/",
-  //   w_desc:
-  //     "Built responsive UI and real-time order tracking system for a seamless customer experience.",
-  //   w_stack: "MongoDB, Express, React, Node.js",
-  //   w_github: "https://github.com/ElitepropsDev/E-shop-Mern-Stack",
-  // },
+  {
+    w_no: 4,
+    w_name: "Elite Properties Website",
+    w_img: project4_img,
+    w_link: "https://eliteproperties.com.ng/",
+    w_desc:
+      "Built responsive UI real estate service delivering website.",
+    w_stack: "Wordpress",
+    // w_github: "https://github.com/ElitepropsDev/E-shop-Mern-Stack",
+  },
   {
     w_no: 5,
     w_name: "YouTube Clone (React.js, Google API)",
