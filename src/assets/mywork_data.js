@@ -7,7 +7,8 @@ import project6_img from "../assets/project_6.png";
 import project7_img from "../assets/project_7.png";
 import project8_img from "../assets/project_8.png";
 import project9_img from "../assets/project_9.png";
-import project10_img from "../assets/project_10.png"
+import project10_img from "../assets/project_10.png";
+import project_11_img from "../assets/project_11.png"
 
 const mywork_data = [
   {
@@ -109,6 +110,16 @@ const mywork_data = [
     w_stack: "React Native, Expressjs, Node js, Mongo Db",
     w_github: "https://github.com/ElitepropsDev/ShopAppX",
   },
+  {
+  w_no: 11,
+  w_name: "LMS Platform",
+  w_img: project_11_img,
+  w_link: "https://lms-ecp.vercel.app/",
+  w_desc:
+    "Developed a full-featured Learning Management System that allows users to enroll in courses, track progress, and access learning materials seamlessly, with a clean UI and efficient backend handling.",
+  w_stack: "React, Node js, Express js, Mongo Db",
+  w_github: "https://github.com/ElitepropsDev/LMS",
+},
 ];
 
 export default mywork_data;
