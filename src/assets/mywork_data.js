@@ -9,6 +9,8 @@ import project8_img from "../assets/project_8.png";
 import project9_img from "../assets/project_9.png";
 import project10_img from "../assets/project_10.png";
 import project_11_img from "../assets/project_11.png"
+import project12_img from "../assets/project12.png"
+import project13_img from "../assets/project13.png"
 
 const mywork_data = [
   {
@@ -120,6 +122,28 @@ const mywork_data = [
   w_stack: "React, Node js, Express js, Mongo Db",
   w_github: "https://github.com/ElitepropsDev/LMS",
 },
+ {
+    w_no: 12,
+    w_name: "SkillForge Mobile App",
+    w_img: project12_img,
+    // w_link: "",
+    w_desc:
+      "Developed a mobile learning platform inspired by Udemy, allowing users to enroll in courses, make secure payments, track progress, chat in real time, and receive notifications through a modern and intuitive interface.",
+    w_stack: "React Native, Expressjs, Node js, Mongo Db",
+    w_github: "https://github.com/ElitepropsDev/SkillForge-Lms",
+  },
+  {
+    w_no: 13,
+    w_name: "Excel TechTrade Landing Page",
+    w_img: project13_img,
+    w_link: "https://www.excelnavigo.com/pistoncrank",
+    w_desc:
+      "Designed and developed a modern, high-converting landing page for Excel TechTrade, showcasing specialized technical training programs with clear calls-to-action, engaging visuals, and a responsive user experience.",
+    w_stack: "Reactjs, Tailwind CSS, Framer Motion",
+    w_github: "https://github.com/ElitepropsDev/LMS/blob/main/client/src/pages/landingPage/PistonCrank.jsx",
+  },
+
+
 ];
 
 export default mywork_data;
