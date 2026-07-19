@@ -76,7 +76,7 @@ const mywork_data = [
     w_no: 7,
     w_name: "E-Shop MERN Stack Project",
     w_img: project7_img,
-    w_link: "https://github.com/ElitepropsDev/E-shop-Mern-Stack/",
+    w_link: "https://eshopx-live.vercel.app/",
     w_desc:
       "Built a full-featured e-commerce platform with product management, authentication, and cart functionality.",
     w_stack: "MongoDB, Express, React, Node.js",
