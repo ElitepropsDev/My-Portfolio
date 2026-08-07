@@ -10,7 +10,7 @@ I'm **Tope Bello**, a Full-Stack and Mobile Developer focused on building simple
 
 I build responsive web applications, backend systems, APIs, databases, and cross-platform mobile applications, with a strong focus on usability, performance, and practical solutions.
 
-![About Me](../about-section.png)
+![About Me](./src/about-section.png)
 
 ## Tech Stack
 
