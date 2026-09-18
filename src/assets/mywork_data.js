@@ -142,7 +142,7 @@ const mywork_data = [
     w_desc:
       "Designed and developed a modern, high-converting landing page for Excel TechTrade, showcasing specialized technical training programs with clear calls-to-action, engaging visuals, and a responsive user experience.",
     w_stack: "Reactjs, Tailwind CSS, Framer Motion",
-    w_github: "https://github.com/ElitepropsDev/LMS/blob/main/client/src/pages/landingPage/PistonCrank.jsx",
+    w_github: "https://github.com/ElitepropsDev/PistonCrank",
   },
   {
   w_no: 14,
