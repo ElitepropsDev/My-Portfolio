@@ -12,7 +12,7 @@ import project_11_img from "../assets/project_11.png"
 import project12_img from "../assets/project12.png"
 import project13_img from "../assets/project13.png"
 import project14_img from "../assets/project14.png"
-import project14_img from "../assets/project15.png"
+import project15_img from "../assets/project15.png"
 
 const mywork_data = [
   {
