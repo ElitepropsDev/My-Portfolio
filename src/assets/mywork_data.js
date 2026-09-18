@@ -11,6 +11,8 @@ import project10_img from "../assets/project_10.png";
 import project_11_img from "../assets/project_11.png"
 import project12_img from "../assets/project12.png"
 import project13_img from "../assets/project13.png"
+import project14_img from "../assets/project14.png"
+import project14_img from "../assets/project15.png"
 
 const mywork_data = [
   {
@@ -136,12 +138,32 @@ const mywork_data = [
     w_no: 13,
     w_name: "Excel TechTrade Landing Page",
     w_img: project13_img,
-    w_link: "https://www.excelnavigo.com/pistoncrank",
+    w_link: "https://piston-crank.vercel.app/",
     w_desc:
       "Designed and developed a modern, high-converting landing page for Excel TechTrade, showcasing specialized technical training programs with clear calls-to-action, engaging visuals, and a responsive user experience.",
     w_stack: "Reactjs, Tailwind CSS, Framer Motion",
     w_github: "https://github.com/ElitepropsDev/LMS/blob/main/client/src/pages/landingPage/PistonCrank.jsx",
   },
+  {
+  w_no: 14,
+  w_name: "ENEDAVE Global Cooperative Website",
+  w_img: project14_img,
+  w_link: "https://enedave-cooperative.vercel.app/",
+  w_desc:
+    "Designed and developed a modern, responsive cooperative website for ENEDAVE Global Cooperative Limited, featuring an agriculture-focused visual identity, membership registration flow, informative sections, and a user-friendly interface optimized for desktop and mobile devices.",
+  w_stack: "Reactjs, Vite, Tailwind CSS, GSAP, Lucide React",
+  w_github: "https://github.com/ElitepropsDev/Enedave-Cooperative-Website",
+},
+{
+  w_no: 15,
+  w_name: "OMSIX Landing Page",
+  w_img: project15_img,
+  w_link: "https://omsix-landingpage.vercel.app/",
+  w_desc:
+    "Designed and developed a modern, responsive landing page for OMSIX, featuring a clean user interface, clear content structure, engaging visuals, and strategically placed calls-to-action to create a strong digital presence.",
+  w_stack: "Reactjs, Tailwind CSS, GSAP, Lucide React",
+  w_github: "https://github.com/ElitepropsDev/Omsix",
+},
 
 
 ];
