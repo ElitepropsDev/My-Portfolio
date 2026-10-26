@@ -13,6 +13,7 @@ import project12_img from "../assets/project12.png"
 import project13_img from "../assets/project13.png"
 import project14_img from "../assets/project14.png"
 import project15_img from "../assets/project15.png"
+import project16_img from "../assets/project16.png"
 
 const mywork_data = [
   {
@@ -164,6 +165,18 @@ const mywork_data = [
   w_stack: "Reactjs, Tailwind CSS, GSAP, Lucide React",
   w_github: "https://github.com/ElitepropsDev/Omsix",
 },
+
+{
+  w_no: 16,
+  w_name: "Telorus Group Website",
+  w_img: project16_img,
+  w_link: "https://telorus-group.vercel.app/",
+  w_desc:
+    "Designed and developed a modern, responsive corporate website for Telorus Group, showcasing its diverse businesses, communicating its vision, and presenting business opportunities through a clean layout, consistent branding, and intuitive navigation.",
+  w_stack: "Reactjs, Tailwind CSS, Lucide React",
+  w_github: "https://github.com/ElitepropsDev/Telorus-Group",
+},
+
 
 
 ];
